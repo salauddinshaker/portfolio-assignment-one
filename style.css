@@ -50,4 +50,29 @@ h2{
 .why-web-dev{
     padding-left: 460px;
     margin-top: 50px;
+    width: 350px;
+}
+.first-part-whydev{
+    display: flex;
+    margin-top: 40px;
+    justify-content:space-around;
+}
+/* first table eer padding */
+  .first-part-whydev-one{
+padding-left: 50px;
+} 
+.first-part-whydev img{
+padding-left: -50px;
+} 
+
+.second-part-whydev{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* third part of why dev */
+.third-part-whydev{
+    display: flex;
+    margin-top: 40px;
+    justify-content:space-around;
 }
