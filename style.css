@@ -25,7 +25,7 @@ h2{
 
 .banner-bac-pic{
 
-    background-image:url('/assets/Hero-bg.png');
+    background-image:url('assets/Hero-bg.png');
     width: 1300px;
     height: 520px;
     
@@ -153,7 +153,7 @@ padding-top: 0;
 
 }
 .support{
-    background-image: url('/assets/handshake.jpg');
+    background-image: url('assets/handshake.jpg');
     background-size:cover;
     color: white;
     height: 300px;
