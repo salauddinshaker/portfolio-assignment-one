@@ -96,3 +96,103 @@ max-height: 600px;
 margin-top: 0px;
 padding-top: 0;
 }
+
+/* Card section..... */
+.card{
+    display: flex;
+    justify-content:space-around;
+}
+    
+.card-one{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.card-tow{
+    background-color:azure;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card-three{
+    background-color:aquamarine;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: -20px;
+}
+
+/* Terget section */
+
+.terget-row{
+    width: 700px;
+    height: 250px;
+    justify-content: space-around;
+    padding: 20px 270px;
+    align-items: center;
+    
+}
+
+.terget-row-desc{
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+.terget-row-one, .terget-row-tow, .terget-row-three{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 5px;
+    
+}
+.terget-row-one img{
+    padding: 5px 25px;
+}
+.support{
+
+}
+.support{
+    background-image: url('/assets/handshake.jpg');
+    background-size:cover;
+    color: white;
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+       
+   
+}
+.support input{
+    padding: 10px;
+    margin-top: 5px;
+}
+.btn {
+    padding: 10px;
+}
+
+.support-element{
+    padding-left: 200px;
+    padding-top: 100px;
+    font-weight: 700px;
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer h2{
+    color: black;
+}
+.footer ul{
+    display: flex;
+    padding: 10px;
+    margin-right: -50px;
+}
+.footer li{
+    padding: 10px;
+    list-style: none;
+}
+
